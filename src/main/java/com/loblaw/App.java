@@ -75,8 +75,8 @@ public class App
                 .stream()
                 .filter((k) -> k.getValue())
                 .count();
-        System.out.println("Total stores are: " + uniqueStores.size());
-        System.out.println("Number of stores with online orders are: " + count);
+        System.out.println("There are " + uniqueStores.size() + " stores in total.");
+        System.out.println(count + " stores have online orders.");
     }
 
     private static void question2(List<Data> table) {
